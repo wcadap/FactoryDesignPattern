@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a13950ba-f742-484c-8280-4c2534be85b9"
+  name="Interface"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5bcf01fc-1229-45bc-b207-acc0b02c66a0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFactoryPattern.Interface"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="249f3427-4a6e-4414-a063-b0d5c8f229e9"
+        name="IAnimal"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="489fa326-0400-49bc-a413-c2d63f3e73f5"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FFactory%2FFactoryPattern%2Fbin%2FDebug%2FFactoryPattern.exe&quot; Namespace%3DFactoryPattern.Interface Type%3DIAnimal"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fe5548be-0c39-4b85-b82c-04f26949d2c6"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74072042-3a3d-4b41-9db8-a70d56160ee8">
+                <propertyInstance
+                  Id="ab49b811-32ca-44ce-abcd-36ddf5671a2e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9bfb8d31-6391-4f73-b9d4-eecc55ee55d0">
+                <propertyInstance
+                  Id="fab98a6b-792a-4e3a-8731-de3c5b7f68ff"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3462ae55-4a55-44e4-98a8-758b1910737b">
+                <propertyInstance
+                  Id="ff084d7f-505f-4537-950f-421e295ced46"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b950c4ef-e8dc-4467-b271-774c8803a88e">
+                <propertyInstance
+                  Id="7aa67542-1b5f-4b1b-abcf-4e2961433fe9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="9e17a0ac-8198-4c87-9fcd-bfee18491cf7"
+            name="Talk"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6b766038-f65c-44fa-b387-4986cf60f240"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FFactory%2FFactoryPattern%2Fbin%2FDebug%2FFactoryPattern.exe&quot; Namespace%3DFactoryPattern.Interface Type%3DIAnimal Member%3DTalk"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36663b0d-3f7a-4f50-80a0-d1409246759a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23360eeb-6278-48f1-aadd-e5c0b6ec832f">
+                    <propertyInstance
+                      Id="9a81514f-45f5-42b1-98e1-2ef19e9ca1ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f53806f-9cec-48fa-b2f6-d5888f021285">
+                    <propertyInstance
+                      Id="a62a8b52-7d4b-404e-8306-9e270b3bdd7f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27fe1ce0-09e2-4fc6-bcf2-630801bc80f2">
+                    <propertyInstance
+                      Id="52b113d2-93d7-45d8-a2c2-460468af9dee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1039c9a-3777-41de-93a6-08fb9a3951ff">
+                    <propertyInstance
+                      Id="df209ca6-95f6-4616-a941-f9a8c6d3d333"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="691bc6ec-a8bf-4691-b449-ce99cdb547fa">
+                    <propertyInstance
+                      Id="2c6ae79f-1a30-4ba4-a6f0-bd7ef9dc9ddf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a4a00ce-c43b-4157-b7e8-b3c868bf7ea2">
+                    <propertyInstance
+                      Id="081a26b1-2030-4e96-bac4-ca454a1790ca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
